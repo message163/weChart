@@ -18,8 +18,10 @@
     "@vue/cli-plugin-router": "^4.5.0",
     "@vue/cli-plugin-vuex": "^4.5.0",
     "@vue/cli-service": "^4.5.0",
+    "axios": "^0.21.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
+    "mockjs": "^1.1.0",
     "postcss-pxtorem": "^5.1.1",
     "vant": "^2.10.12",
     "vue-template-compiler": "^2.6.11"

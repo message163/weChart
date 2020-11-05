@@ -6,6 +6,7 @@ import '@/assets/css/flexible_css.debug'
 import '@/assets/css/flexible.debug'
 import Vant from 'vant';
 import 'vant/lib/index.css';
+import '@/mock'
 Vue.use(Vant)
 Vue.config.productionTip = false
 
