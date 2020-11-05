@@ -11,7 +11,13 @@ const routes = [
   },
   {
     path: '/index',
-    component: () => import('@/views/index/main')
+    redirect:"/index/chart",
+    component: () => import('@/views/index/main'),
+    children:[{
+       name:"chart",
+       path:"/index/chart",
+       component:()=> import('@/views/index/we-chart')
+    }]
   }
 ]
 
